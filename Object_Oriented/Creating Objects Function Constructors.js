@@ -17,4 +17,3 @@ var mike = new Person('Mike', '1990', 'Teacher ');
 //mike.calAge();
 asif.calculateAge();
 anna.calculateAge();
-mike.calculateAge();
