@@ -43,3 +43,4 @@ var anna = Object.create(personProto, {
     job: { value: 'Painter' }
 
 });
+asif.calculateAge();
