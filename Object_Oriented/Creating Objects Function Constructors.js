@@ -44,3 +44,4 @@ var anna = Object.create(personProto, {
 
 });
 asif.calculateAge();
+anna.calculateAge();
