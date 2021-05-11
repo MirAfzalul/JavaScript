@@ -26,7 +26,7 @@ anna.calculateAge();
 mike.calculateAge();*/
 
 //object.create 
-var personProto = {
+/*var personProto = {
     calculateAge: function() {
         console.log(2021 - this.yearofBirth);
     }
@@ -43,5 +43,28 @@ var anna = Object.create(personProto, {
     job: { value: 'Painter' }
 
 });
+
+//primitves and objects
+
 asif.calculateAge();
-anna.calculateAge();
+anna.calculateAge(); */
+
+class Rectangle {
+    constructor(l, w) {
+        this.l = l;
+        this.w = w;
+    }
+    get area() {
+        return this.calcArea();
+
+    }
+    calcArea() {
+        return this.l * this.w;
+    }
+};
+Rectangle.prototype.calcPerimeter = function() {
+    return this.l + this.w;
+}
+var rect1 = new Rectangle(2, 3);
+rect1.l = 4;
+console.log(rect1.calcPerimeter());
