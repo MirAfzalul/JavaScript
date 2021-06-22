@@ -67,4 +67,5 @@ Rectangle.prototype.calcPerimeter = function() {
 }
 var rect1 = new Rectangle(2, 3);
 rect1.l = 4;
+rect1.w = 2;
 console.log(rect1.calcPerimeter());
